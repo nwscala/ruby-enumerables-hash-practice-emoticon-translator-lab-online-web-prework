@@ -19,6 +19,9 @@ def get_japanese_emoticon(filepath, english_emoticon)
   # code goes here
   emoticon_lib = load_library(filepath)
   if emoticon_lib[:get_emoticon].include?(english_emoticon)
+    emoticon_lib[:get_emoticon][english_emoticon]
+  else
+    puts ""
 end
 
 def get_english_meaning
