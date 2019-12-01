@@ -5,6 +5,7 @@ def load_library(filepath)
   YAML.load_file(filepath)
   
   emoticon_lib = {:get_meaning => {}, :get_emoticon => {}}
+  
 end
 
 def get_japanese_emoticon
