@@ -15,8 +15,10 @@ def load_library(filepath)
   emoticon_lib
 end
 
-def get_japanese_emoticon(filepath, japanese_emoticon)
+def get_japanese_emoticon(filepath, english_emoticon)
   # code goes here
+  load_library(filepath)
+  
 end
 
 def get_english_meaning
