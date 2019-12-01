@@ -6,7 +6,8 @@ def load_library(filepath)
   
   emoticon_lib = {:get_meaning => {}, :get_emoticon => {}}
   
-  emoticons.each do |meaning, value| #meaning = "angel", value = ["0:)", ""
+  emoticons.each do |meaning, value| #meaning = "angel", value = ["0:)", "☜(⌒▽⌒)☞"]
+    
 end
 
 def get_japanese_emoticon
