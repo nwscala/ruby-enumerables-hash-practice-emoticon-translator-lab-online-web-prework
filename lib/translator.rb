@@ -21,7 +21,7 @@ def get_japanese_emoticon(filepath, english_emoticon)
   if emoticon_lib[:get_emoticon].include?(english_emoticon)
     emoticon_lib[:get_emoticon][english_emoticon]
   else
-    puts "Sorry, that emoticon was not found."
+    "Sorry, that emoticon was not found"
   end
 end
 
